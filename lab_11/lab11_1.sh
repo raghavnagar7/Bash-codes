@@ -7,3 +7,4 @@ do\
 echo "$word"\
 done\
  }
+
