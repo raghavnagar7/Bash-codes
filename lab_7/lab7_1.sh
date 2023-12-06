@@ -9,3 +9,4 @@ if [ -e "$name" ]; then
 else
     echo "does not exist, make it"    
 fi    
+
