@@ -14,3 +14,4 @@ filename="${filename%.*}"
 mv "$file" "$directory/$prefix$filename$suffix.$extension"
 fi
 done
+
