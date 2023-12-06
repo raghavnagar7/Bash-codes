@@ -20,3 +20,4 @@ echo "enter number"
 read num
 fact $num
 
+
