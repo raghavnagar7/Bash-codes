@@ -20,3 +20,4 @@ echo "Array in sorted order :"
 echo ${arr[*]}
 
 
+
