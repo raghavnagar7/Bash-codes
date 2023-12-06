@@ -21,3 +21,4 @@ echo "Number of lines: $lines"
 echo "Number of words: $words"
 echo "Number of characters: $characters"
 
+
