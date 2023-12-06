@@ -1,13 +1,11 @@
-echo "Enter a number"
-read num
-
-sum=0
-
-while [ $num -gt 0 ]
-do
-    mod=$((num % 10))    #It will split each digits
-    sum=$((sum + mod))   #Add each digit to sum
-    num=$((num / 10))    #divide num by 10.
-done
-
-echo $sum
+#!/bin/bash
+echo "Enter a string: "
+read string
+# Reverse the string
+reverse=$(echo "$string" | rev)
+if [ "$string" = "$reverse" ]
+then
+echo "$string is a palindrome."
+else
+echo "$string is not a palindrome."
+fi
