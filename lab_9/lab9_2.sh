@@ -8,3 +8,4 @@ read min_size
 echo "Enter the maximum file size in bytes: "
 read max_size
 find "$directory" -type f -name "*.$extension" -size +"$min_size"c -size -"$max_size"c
+
