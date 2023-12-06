@@ -30,3 +30,4 @@ lcm=`expr $temp / $n`
 
 echo LCM=$lcm
 
+
