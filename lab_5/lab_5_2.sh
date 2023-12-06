@@ -11,3 +11,4 @@ item=`expr $item / 10`
 done 
 
 echo "The sum of the digits is $sum"
+
